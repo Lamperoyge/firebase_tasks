@@ -1,12 +1,12 @@
 import React from 'react';
 import { StyleSheet, View, TouchableWithoutFeedback } from 'react-native';
-import Input from './Input';
-import Button from './SubmitButton';
-import { Divider, Text} from 'react-native-elements';
+import Input from '../../Components/Input';
+import Button from '../../Components/SubmitButton';
+import { Divider, Text} from 'react-native-elements/src/index';
 const SignUpButton = (props) => {
     return (
         <TouchableWithoutFeedback onPress={props.onpress}>
-            <Text style={{color: '#d80157', textAlign: 'center'}}>
+            <Text style={{color: '#EB0055', textAlign: 'center'}}>
                 Sign up!
             </Text>
         </TouchableWithoutFeedback>

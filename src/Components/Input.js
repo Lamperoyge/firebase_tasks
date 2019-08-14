@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
         padding: 10,
         borderWidth: 1,
         borderRadius: 30,
-        borderColor: '#D80057',
+        borderColor: '#EB0055',
         marginBottom: 10,
     }
 });

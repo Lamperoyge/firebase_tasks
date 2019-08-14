@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, Dimensions, Image } from 'react-native';
-import LoginForm from '../../Components/LoginForm';
+import LoginForm from './LoginForm';
 
 let ScreenHeight = Dimensions.get("window").height;
 let ScreenWidth = Dimensions.get('window').width;
